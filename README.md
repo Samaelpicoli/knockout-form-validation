@@ -20,11 +20,11 @@ Após efetuar o fork do projeto
 
 Acessar o diretório da pasta knockout-form-validation
 
-Abrir o terminal e digitar o comando -> npm install
+Abrir o terminal e digitar o comando -> **npm install**
 
 Após a instalação das dependecias.
 
-Digitar o comando npm start ou npm run-script start
+Digitar o comando **npm start** ou **npm run-script start**
 
 Para rodar o projeto localmente
 
