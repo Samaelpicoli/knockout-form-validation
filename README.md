@@ -61,5 +61,7 @@ Ao enviar o formuário deverá ser printado um objeto JSON com as informações 
 ```
 
 OBS: CEP e number serão numeros inteiros.
+
 state será apenas a sigla.
+
 As demais propriedades do Json serão String.
