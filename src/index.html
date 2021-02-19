@@ -26,13 +26,20 @@
                     <label for="validationCustom02">Sobrenome</label>
                     <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" value=""
                         required>
-                    <div class="invalid-feedback" data-bind="visible: !validate.isValid()">
+                    <div class="invalid-feedback" data-bind="visible: !lastName.isValid()">
                         O campo Sobrenome é obrigatório!
                     </div>
                 </div>
             </div>
             <div class="form-row">
-                <div class="col-md-12 mb-12">
+                <div class="col-md-2 mb-2">
+                    <label for="validationCustom13">DDD</label>
+                    <input type="text" class="form-control" id="validationCustom13" placeholder="DDD" value="" required>
+                    <div class="invalid-feedback">
+                        O campo DD é obrigatório!
+                    </div>
+                </div>
+                <div class="col-md-10 mb-10">
                     <label for="validationCustom03">Telefone</label>
                     <input type="text" class="form-control" id="validationCustom03" placeholder="Telefone" value=""
                         required>
@@ -106,7 +113,7 @@
                 </div>
             </div>
             <br />
-            <button class="btn btn-primary" disabled type="submit">Enviar Forumlário</button>
+            <button class="btn btn-primary" disabled type="submit">Enviar Formulário</button>
         </form>
     </div>
 
